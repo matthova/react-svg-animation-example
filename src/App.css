@@ -1,0 +1,35 @@
+button {
+  border: 0;
+  background: linear-gradient(
+    to bottom,
+    #444,
+    #111
+  );
+  border-radius: 10px;
+  padding: 10px 30px 12px;
+  outline: 0;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+button:hover, button:active {
+  background: black;
+}
+button svg {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+button span {
+  font-size: 22px;
+  position: relative;
+  top: 4px;
+  color: white;
+}
+
+body {
+  padding: 20px;
+  text-align: center;
+}
